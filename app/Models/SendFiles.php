@@ -11,11 +11,12 @@ class SendFiles extends Model
     protected $table = 'documents';
 
     protected $primaryKey='id_document';
-    public $timeStamps = false ;
+    public $timestamps = false ;
     protected $fillable=[
-        'nombre',
-        'fecha',
-        'correo',
+        'nombre'=>'Mi nombre',
+        //'fecha',
+        'correo'=>"micorre@mail.cl",
+        'nombreDocumento'
     ];
     
 }
